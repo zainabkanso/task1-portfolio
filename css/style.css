@@ -2117,3 +2117,81 @@ section {
         font-size: 13px;
     }
 }
+
+
+/* ==============================
+   FIX SPACING BETWEEN SECTIONS
+============================== */
+
+/* Desktop */
+.about-section,
+.skills-section,
+.projects-section {
+    padding: 55px 0;
+}
+
+.contact-section {
+    padding: 55px 0 25px;
+}
+
+/* About Section Heading */
+.about-section .section-heading {
+    margin-bottom: 0;
+}
+
+/* Reduce space between heading and cards */
+.about-section .row.mt-5 {
+    margin-top: 30px !important;
+}
+
+/* Projects Heading */
+.projects-header {
+    margin-bottom: 35px;
+}
+
+/* ==============================
+   TABLET
+============================== */
+
+@media (max-width: 991px) {
+
+    .about-section,
+    .skills-section,
+    .projects-section {
+        padding: 45px 0;
+    }
+
+    .contact-section {
+        padding: 45px 0 20px;
+    }
+
+    .about-section .row.mt-5 {
+        margin-top: 25px !important;
+    }
+}
+
+/* ==============================
+   MOBILE
+============================== */
+
+@media (max-width: 576px) {
+
+    .about-section,
+    .skills-section,
+    .projects-section {
+        padding: 35px 0;
+    }
+
+    .contact-section {
+        padding: 40px 0 15px;
+    }
+
+    .about-section .row.mt-5 {
+        margin-top: 20px !important;
+    }
+
+    .projects-header {
+        margin-bottom: 25px;
+    }
+}
+
